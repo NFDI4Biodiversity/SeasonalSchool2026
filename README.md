@@ -1,4 +1,4 @@
-# NFDI4Biodiversity & iDiv Seasonal School on Data Management in Biodiversity and Environmental Science
+# NFDI4Biodiversity & iDiv Seasonal School on Data Management in Biodiversity and Environmental Science 2026
 
 ## How to use this repository
 
@@ -6,64 +6,63 @@ This repository provides details on the schedule, on necessary [accounts and ins
 
 ## About this workshop
 
-The **NFDI4Biodiversity & iDiv Seasonal School on Data Management in Biodiversity and Environmental Science** is a collaboration between the [German Centre for Integrative Biodiversity Research (iDiv)](https://www.idiv.de) and the [NFDI4Biodiversity](https://nfdi4biodiversity.org) consortium. This course offers cutting-edge skills and knowledge essential for handling scientific data throughout its life cycle. The intensive five-day program combines direct knowledge transfer with practical lessons to introduce participants to fundamental and advanced tools in research data management (RDM), tailored to enhance their future careers.
+The **NFDI4Biodiversity & iDiv Seasonal School on Data Management in Biodiversity and Environmental Science 2026** is organised by [Marburg University](https://www.uni-marburg.de/en), the [German Federation for Biological Data (GFBio e.V.)](https://www.gfbio.org/) and the [German Centre for Integrative Biodiversity Research (iDiv)](https://www.idiv.de) as part of the [NFDI4Biodiversity](https://nfdi4biodiversity.org) consortium. We offer cutting-edge skills and knowledge essential for handling scientific data throughout their life cycle. The intensive five-day program introduces participants to fundamental and advanced workflows and tools in research data management (RDM) – specifically tailored to boost your academic career and meet today's funding requirements.
+
 
 ### Scope
 
-Participants will engage in a simulated scientific project that covers the entire data life cycle (DLC): data collection, integration from databases, quality control, visualization, and data publication. Using the GFBio DMP Tool, attendees will create a Data Management Plan (DMP) and map local plant occurrences with QField. They will also integrate datasets from repositories like PANGAEA, utilize Jupyter and R for data analysis and visualization, and learn how to publish data on platforms such as PANGAEA and GBIF.
+Participants will follow the entire life cycle of research data and learn how to find, access, collect, integrate, clean, visualize, and publish data. Using the GFBio DMP Tool, attendees will create a Data Management Plan (DMP) and map local plant occurrences with a digital fieldwork app. They will also integrate and clean datasets from repositories like GBIF and platforms like PlantHub, utilize Jupyter and R for data analysis and visualization, and learn how to publish data in repositories such as PANGAEA.
 
 ### Learning objectives
 
 You will learn...
-*    How to create a data management plan
-*    How to use Jupyter in combination with R (and Python) as working environment
-*    Legal aspects of handling data
-*    How to handle spatial data
-*    How to integrate data from different sources
-*    How to publish data
+* How to create a data management plan
+*	How to use Jupyter in combination with R (and Python) as working environment and Quarto to create reproducible content
+*	How to integrate and clean data from different sources
+*	How to set up reproducible workflows for data processing and analysis
+*	How to publish data according to the FAIR principles
+*	... and about legal aspects of handling and sharing data
 
 ## Requirements <a name="requirements"></a>
 
 You will need a computer where you can install programs, a camera and microphone, and a stable internet connection during the course. 
 
 Further, you will need
-* basic knowledge of Git on command line or desktop software
-  * pull and push from remote
-  * recommended:
-    * know how to merge
-* basic knowledge of Python
-  * how to start a Python program from the command line
-* basic knowledge of R
-  * know how to load packages and use functions
-  * loops, variables, input/output
-  * recommended:
+* Basic knowledge of Git on command line or desktop software
+  * Pull and push from remote
+  * Recommended:
+    * Know how to merge
+* Basic knowledge of Python
+  * How to start a Python program from the command line
+* Basic knowledge of R
+  * Know how to load packages and use functions
+  * Loops, variables, input/output
+  * Recommended:
     * R package *data.table*
-    * tidyverse
+    * R package *tidyverse*
 
 We compiled a list of recommended online learning resources for Git, R, and Python [here](misc/install.md#recommended).
 
 ### Prepare for the workshop
 
-* fill in our pre-workshop survey
 * ❗ **Find a spot of vegetation close to you that you can visit to collect data during the course** :deciduous_tree: 🌲🌿
-* prepare a measuring device for data collection (a ruler, a measuring tape, or a piece of string to be measured with a ruler)
-* make sure to adress [requirements](#requirements), i.e. brush-up your [Git, Python and R skills](misc/install.md#recommended)
-* register for the following services and organisations (find a list of links and resources [here](misc/install.md))
-  * necessary
-    * ECMWF CDS
+* Prepare a measuring device for data collection (a ruler, a measuring tape, or a piece of string to be measured with a ruler)
+* Make sure to adress [requirements](#requirements), i.e. brush-up your [Git, Python and R skills](misc/install.md#recommended)
+* Register for the following services and organisations (find a list of links and resources [here](misc/install.md))
+  * Necessary
     * GBIF
     * GitHub
     * QFieldCloud
     * Zenodo (alternative: ORCID)
-  * recommended
+  * Recommended
     * ORCID
-* install or update the following programs on your local computer (find a list of links and resources [here](misc/install.md))
-  * necessary
+* Install or update the following programs on your local computer (find a list of links and resources [here](misc/install.md))
+  * Necessary
     * OpenRefine
     * RightField
     * QField
     * Spreadsheet software (e.g. LibreOffice, Microsoft Excel)
-  * recommended
+  * Recommended
     * Jupyter (local)
     * Git
  
@@ -73,98 +72,9 @@ We compiled a list of recommended online learning resources for Git, R, and Pyth
 
 ### After the workshop
 
-* fill in our post-workshop survey
-* find additional resources and details on future workshops on our website https://www.nfdi4biodiversity.org
-* find additional resources here xx
-
-## Schedule
-
-### [Day 1](day1/day1.md)
-
-* 08:30 - 09:30 | :sun_with_face: Warm-up
-* 09:30 - 10:30 | Lecture 1 - Research Data Management & Data Literacy
-  * Dr. Ivaylo Kostadinov ([German Federation for Biological Data | GFBio](https://www.gfbio.org/))
-  * [Slides](https://doi.org/10.5281/zenodo.15124025) | [Video](https://www.youtube.com/watch?v=sbazF7uKVAM&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=2)
-* 10:30 - 10:40 | :tea: Break :coffee:
-* 10:40 - 12:10 | Lecture 2 - FAIR tools & processes to be used
-  * Dr. Johannes Signer (University of Göttingen)
-  * [Slides](https://doi.org/10.5281/zenodo.14262125) | [Video](https://www.youtube.com/watch?v=EQJgIgLY9NY&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=3)
-* 12:10 - 13:00 | :fork_and_knife: Break
-* 13:00 - 15:00 | Practical Session 1 - Create a Data Management Plan (DMP) - part 1
-  * Jimena Linares ([German Federation for Biological Data | GFBio](https://www.gfbio.org/))(planned)
-  * Dr. Ivaylo Kostadinov ([German Federation for Biological Data | GFBio](https://www.gfbio.org/))(actual)
-  * [Slides](https://doi.org/10.5281/zenodo.14162304) | [Video Introduction](https://www.youtube.com/watch?v=LyVYrilcIpI&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=4)
-* 15:00 - 15:10 | 📌 Wrap-up and outlook
-
-### [Day 2](day2/day2.md)
-
-* 08:30 - 09:00 | :sun_with_face: Warm-up
-* 09:00 - 10:30 | Lecture 3 - Investigating biodiversity data using open-access databases: following FAIR data principles
-  * Dr. Erik Kusch ([Natural History Museum of the University of Oslo](https://www.nhm.uio.no/english/), [Global Biodiversity Information Facility Norway | GBIF Norway](https://www.gbif.org/country/NO/summary))
-  * [Slides](https://doi.org/10.5281/zenodo.15097622) | [Tutorial GBIF](https://www.erikkusch.com/courses/gbif/) | [Tutorial Seasonal School 2024](https://www.erikkusch.com/courses/gbif/nfdi-download) | [Video](https://www.youtube.com/watch?v=OeIpnrE1r_I&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=5)
-* 10:30 - 10:40 | :tea: Break :coffee:
-* 10:40 - 12:10 | Lecture 4 - Legal aspects
-  * Uwe Schindler ([University of Bremen](https://www.uni-bremen.de/en/), [MARUM - Center for Marine Environmental Sciences](https://www.marum.de/en/index.html); [PANGAEA - Data Publisher for Earth & Environmental Science](https://pangaea.de/))
-  * [Slides](https://doi.org/10.5281/zenodo.14268397) | [Video](https://www.youtube.com/watch?v=aqfYvXT4GWo&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=6)
-* 12:10 - 13:00 | :fork_and_knife: Break
-* 13:00 - 15:00 | Practical Session 2 - Sampling and handling spatial data using QField
-  * Alexandra Nozik ([Leibniz Centre for Tropical Marine Research](https://www.leibniz-zmt.de/de/))
-  * Tool [QField](https://qfield.org)
-* 15:00 - 15:10 | 📌 Wrap-up and outlook
-
-### [Day 3](day3/day3.md)
-
-* 08:30 - 09:00 | :sun_with_face: Warm-up
-* 09:00 - 10:30 | Lecture 5 - Taxonomic harmonization
-  * Dr. David Schellenberger Costa ([University of Leipzig](https://www.uni-leipzig.de/))
-  * [Slides, training data sets & notebooks](https://doi.org/10.5281/zenodo.14273559) | [Video](https://www.youtube.com/watch?v=EbEBKWq5Cxs&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=7)
-* 10:30 - 10:40 | :tea: Break :coffee:
-* 10:40 - 12:10 | <s>Lecture 6 - Data standards</s> (cancelled) --> Practical Session 1 - Create a Data Management Plan (DMP) - part 2
-  * Dr. Judith Engel ([University of Bremen](https://www.uni-bremen.de/en/), [MARUM - Center for Marine Environmental Sciences](https://www.marum.de/en/index.html), [German Federation for Biological Data | GFBio](https://www.gfbio.org/), [PANGAEA - Data Publisher for Earth & Environmental Science](https://pangaea.de/))
-  * Tool [GFBio Data Management Tool](https://dmp.gfbio.org)
-* 12:10 - 13:00 | :fork_and_knife: Break
-* 13:00 - 15:00 | Practical Session 3 - Data integration & annotation
-  * Prof. Dr. Wolfgang Müller ([Heidelberg Institute for Theoretical Studies | HITS](https://www.h-its.org/))
-  * [Slides & training data sets](https://doi.org/10.5281/zenodo.14269511) | [Video OpenRefine](https://www.youtube.com/watch?v=xv7usxUH-Ig&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=9) | [Video RightField](https://www.youtube.com/watch?v=JRKmyd4RFEo&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=8) | [Video ReStoRunT](https://www.youtube.com/watch?v=7B0Sg2v02Dc&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=10)
-* 15:00 - 15:10 | 📌 Wrap-up and outlook
-
-### [Day 4](day4/day4.md)
-
-* 08:30 - 09:00 | :sun_with_face: Warm-up
-* 09:00 - 10:30 | Lecture 7 - Data analysis & visualisation according to FAIR principles
-  * Dr. Cédric Scherer ([Data Visualization & Information Design](https://www.cedricscherer.com/))
-  * [Slides, code & notebook](https://doi.org/10.5281/zenodo.14275834) | [Video](https://www.youtube.com/watch?v=iOgdM0atukY&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=11)
-* 10:30 - 10:40 | :tea: Break :coffee:
-* 10:40 - 12:10 | Lecture 8 - Publishing your workflow, analysis, scripts using Jupyter, Git and software management tools
-  * Dr. Ludmilla Figueiredo ([German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig](https://www.idiv.de/en))
-  * [Slides](https://doi.org/10.5281/zenodo.14282399) | [Test repository](https://doi.org/10.5281/zenodo.14281732) | [Notebook folder structure](https://github.com/ludmillafigueiredo/computational_notebooks) | [Video](https://www.youtube.com/watch?v=YkuYWzifPdM&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=12)
-
-* 12:10 - 13:00 | :fork_and_knife: Break
-* 13:00 - 15:00 | Practical Session 4 - Jupyter Hub
-  * Dr. Johannes Signer ([University of Göttingen](https://www.uni-goettingen.de/))
-  * [Training data sets](day4/practical_session4/data/) | [Code](day4/practical_session4/scripts/exercise.R)
-* 15:00 - 15:10 | 📌 Wrap-up and outlook
-
-### [Day 5](day5/day5.md)
-
-* 08:30 - 09:00 | 🌞 Warm-up 
-* 09:00 - 10:00 | <s>Lecture 6 - Data standards</s> (cancelled) --> Resumée 
-* 10:00 - 10:10 | 🍵 Break ☕ 
-* 10:10 - 11:40 | Lecture 9 - Data publication & archiving
-  * Matthias Pauli ([University of Bremen](https://www.uni-bremen.de/en/), [MARUM - Center for Marine Environmental Sciences](https://www.marum.de/en/index.html), [PANGAEA - Data Publisher for Earth & Environmental Science](https://pangaea.de/))
-  * Dr. Judith Engel ([University of Bremen](https://www.uni-bremen.de/en/), [MARUM - Center for Marine Environmental Sciences](https://www.marum.de/en/index.html), [German Federation for Biological Data | GFBio](https://www.gfbio.org/), [PANGAEA - Data Publisher for Earth & Environmental Science](https://pangaea.de/))
-  * Slides PANGAEA Data Submission | [Slides GFBio Data Submission Service](https://doi.org/10.5281/zenodo.15174063) | | [Video PANGAEA Data Submission](https://www.youtube.com/watch?v=8ujSrpeb0bs&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=13) | [Video GFBio Data Submission Service](https://www.youtube.com/watch?v=TvSKvLa_b9Q&list=PL06Unzn1hDrjVAZ0RvNbyQ1Uics9TQ1Kv&index=14)
-* 11:40 - 12:30 | 🍵 Break ☕ 
-* 12:30 - 14:00 | Practical Session 5 - Publishing data
-  * Dr. Judith Engel ([University of Bremen](https://www.uni-bremen.de/en/), [MARUM - Center for Marine Environmental Sciences](https://www.marum.de/en/index.html), [German Federation for Biological Data | GFBio](https://www.gfbio.org/), [PANGAEA - Data Publisher for Earth & Environmental Science](https://pangaea.de/))
-  * Matthias Pauli ([University of Bremen](https://www.uni-bremen.de/en/), [MARUM - Center for Marine Environmental Sciences](https://www.marum.de/en/index.html), [PANGAEA - Data Publisher for Earth & Environmental Science](https://pangaea.de/))
-  * [Notebook Python](https://github.com/pangaea-data-publisher/community-workshop-material/blob/master/Python/Data_curation_checklist/Data_curation_checklist.ipynb) | [Notebook R](https://github.com/pangaea-data-publisher/community-workshop-material/blob/master/R/Data_curation_checklist/Data_Curation_Checklist.ipynb)
-* 14:00 - 14:10 | 🍵 <s>Break</s> ☕ 
-* 14:10 - 14:40 | 📌 <s>Resumée</s> moved
-
-## List of contributors (A-Z)
-
-Judith Engel, Ludmilla Figueiredo, Linus Franz, Anahita Kazem, Ivaylo Kostadinov, Erik Kusch, Jimena Linares, Wolfgang Müller, Alexandra Nozik, Matthias Pauli, Juliane Röder, Nicole Sachmerda-Schulz, David Schellenberger Costa, Cédric Scherer, Pascal Scherreiks, Uwe Schindler, Johannes Signer, Daniel Tschink
+* Fill in our post-workshop survey
+* Find additional resources and details on future workshops on our website https://www.nfdi4biodiversity.org
+* Find additional training materials [here](https://kb.gfbio.org/display/KB/Training+resources)
 
 ## How to cite
 
@@ -178,7 +88,7 @@ The **markdown texts** in this repository can be used under a [CC BY 4.0 license
 
 Interested to learn more about research data management? Check out our training opportunities: https://www.nfdi4biodiversity.org/en/training
 
-## About NFDI4Biodiversity and iDiv
+## About NFDI4Biodiversity, iDiv, Marburg University and GFBio e.V.
 
 ### NFDI4Biodiversity
 
@@ -186,7 +96,12 @@ Interested to learn more about research data management? Check out our training 
 
 ### German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig
 
-[iDiv](https://www.idiv.de) is the only DFG-funded research centre and has a unique structure. It is run by [Martin Luther University Halle-Wittenberg (MLU)](https://www.uni-halle.de/?lang=en), [Friedrich Schiller University Jena (University of Jena)](https://www.uni-jena.de/en) and [Leipzig University (UL)](https://www.uni-leipzig.de/en) – and in cooperation with the [Helmholtz Centre for Environmental Research (UFZ)](https://www.ufz.de/index.php?en=33573). The centre is located in Leipzig. 
+[iDiv](https://www.idiv.de) is the only DFG-funded research centre and has a unique structure. It is run by [Martin Luther University Halle-Wittenberg (MLU)](https://www.uni-halle.de/?lang=en), [Friedrich Schiller University Jena (University of Jena)](https://www.uni-jena.de/en) and [Leipzig University (UL)](https://www.uni-leipzig.de/en) – and in cooperation with the [Helmholtz Centre for Environmental Research (UFZ)](https://www.ufz.de/index.php?en=33573). The centre is located in Leipzig. The science consortium is enhanced through the expertise of the more than 150 active iDiv members, who work on specific aspects of research in various locations and institutions, and also through the collaboration with the following non-university facilities: the Max Planck Institute for Biogeochemistry (MPI BGC), the Max Planck Institute for Chemical Ecology (MPI CE), the Max Planck Institute for Evolutionary Anthropology (MPI EVA), the Leibniz Institute German Collection of Microorganisms and Cell Cultures (DSMZ), the Leibniz Institute of Plant Biochemistry (IPB), the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), and the Leibniz Institute Senckenberg Museum of Natural History (SMNG).
 
-The science consortium is enhanced through the expertise of the more than 150 active iDiv members, who work on specific aspects of research in various locations and institutions, and also through the collaboration with the following non-university facilities: the Max Planck Institute for Biogeochemistry (MPI BGC), the Max Planck Institute for Chemical Ecology (MPI CE), the Max Planck Institute for Evolutionary Anthropology (MPI EVA), the Leibniz Institute German Collection of Microorganisms and Cell Cultures (DSMZ), the Leibniz Institute of Plant Biochemistry (IPB), the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), and the Leibniz Institute Senckenberg Museum of Natural History (SMNG).
+### Marburg University
 
+The guiding principle of [Marburg University](https://www.uni-marburg.de/en) is the combination of basic research, future-oriented practical application, and education in a wide range of subjects. Founded in 1527, the university offers excellent teaching and addresses the important issues of our time with exceptional research across the full spectrum of science. In Marburg, ideas and solutions for the world of tomorrow are created in 16 departments, 12 overarching research centers and a University Hospital, thereby fostering a living exchange across disciplinary and generational boundaries.
+
+### German Federation for Biological Data (GFBio e.V.)
+
+[GFBio e.V.](https://www.gfbio-ev.de/en/) is a non-profit association dedicated to promoting science and research in the field of scientific data management. The association fulfils its statutory purpose in particular by establishing and operating a national network of expertise and infrastructure for data management in the biological sciences.
