@@ -6,8 +6,6 @@ During the course, we will use several services that require personal accounts. 
 
 ### Necessary
 
-* [ECMWF CDS](https://www.ecmwf.int) - access and download climate data from The Copernicus Climate Data Store (CDS)
-  * [How to set up R package *KrigR* with your ECMWF CDS account](https://www.erikkusch.com/courses/krigr/setup/#cds-api-access)
 * [GBIF](https://www.gbif.org/) - access and download biodiversity data
   * [How to set up R package *rgbif* with your GBIF account](https://www.erikkusch.com/courses/gbif/setup/#gbif-account)
   * alternative: use your GitHub account to sign in to GBIF
