@@ -82,7 +82,40 @@ We will use a cloud version of **JupyterLab** including both **R** and **Python*
 * [direct link to RStudio, contains link to R](https://posit.co/download/rstudio-desktop/)
 * R packages:
   * pkgs <- c( <br>
-              "rgbif",             		                  ## access species data <br>
-	             "data.table", "doSNOW",			 		            ## taxonomic harmonization (incl. rgbif) <br>
+              "rgbif",             		                            ## access species data <br>
+	             "data.table", "doSNOW"			 		            ## taxonomic harmonization (incl. rgbif) <br>
             	)<br>
 install.packages(pkgs, dependencies = TRUE)
+
+
+## Access to Jupyter
+
+There are several options to work with Jupyter notebooks. We will use the services of [Juypter4NFDI](https://nfdi-jupyter.de/).
+
+Please try to log in at least once before the course starts to make sure that you have access.
+
+1.	Open https://hub.nfdi-jupyter.de
+2.	Select “Sign in”
+3.	Select “Guest Access”
+4.	You have 2 options:
+a.	Search for your home institution in the dropdown menu and log in with your institutional credentials
+b.	Use your ORCID, GitHub or Google account to log in
+5.	Start a new JuypterLab
+6.	Select version --> Select “Custom Docker image” 
+7.	Image --> select “jupyter/datascience-notebook”
+8.	Start
+9.	Congratulations! You can now upload and use Jupyter notebooks. You could try to use one of these:
+  1.	Taxonomic name harmonization by David Schellenberger Costa https://doi.org/10.5281/zenodo.17350117
+  2.	Data Analysis & Visualisation According to FAIR Principles by Cédric Scherer https://doi.org/10.5281/zenodo.17303036
+
+In case you do not have access to Jupyter4NFDI, please consider one of the following options:
+
+* Institutional access to a local Jupyter instance (please check with your institution!)
+* Galaxy Network (there are different regional networks, e.g. https://usegalaxy.eu for Europe)
+* EOSC Hub (please note the [EOSC EU Node User Access Policy](https://open-science-cloud.ec.europa.eu/sites/default/files/2025-09/EOSC-EU-Node-User-Access-Policy-v2.2.pdf))
+* Local installation of Jupyter Notebook or JupyterLab, e.g. JupyterLab via [Docker image](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook) incl. R and rpy2 ("R magic")
+* Alternative installations of  JupyterLab: https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html
+* Try different Jupyter versions [here](https://docs.jupyter.org/en/latest/install.html), incl. Installation guides for Jupyter Notebook, JupyterLab, JupyterHub etc. 
+* Local installation of [Positron](https://positron.posit.co/), a coding environment similar to VS Code, but from the same company as RStudio and therefore well prepared to be used with R without any extra installations (please note: Positron includes automatic tracking, with regular updates to Posit)
+* Local installation of [VSCode](https://code.visualstudio.com/) (please note: VSCode includes automatic tracking, with regular updates to Microsoft)
+* Local installation of [VS Codium](https://vscodium.com/) (based on the same software as VSCode, but without tracking)
