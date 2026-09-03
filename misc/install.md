@@ -112,7 +112,7 @@ In case you do not have access to Jupyter4NFDI, please consider one of the follo
 
 * Institutional access to a local Jupyter instance (please check with your institution!)
 * Galaxy Network (there are different regional networks, e.g. https://usegalaxy.eu for Europe)
-* EOSC Hub (please note the [EOSC EU Node User Access Policy](https://open-science-cloud.ec.europa.eu/sites/default/files/2025-09/EOSC-EU-Node-User-Access-Policy-v2.2.pdf))
+* [EOSC EU Node](https://open-science-cloud.ec.europa.eu/about/access-policy#authentication--authorisation) (select one of the available options for authentication)
 * Local installation of Jupyter Notebook or JupyterLab, e.g. JupyterLab via [Docker image](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook) incl. R and rpy2 ("R magic")
 * Alternative installations of  JupyterLab: https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html
 * Try different Jupyter versions [here](https://docs.jupyter.org/en/latest/install.html), incl. Installation guides for Jupyter Notebook, JupyterLab, JupyterHub etc. 
