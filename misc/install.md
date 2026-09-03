@@ -6,21 +6,21 @@ During the course, we will use several services that require personal accounts. 
 
 ### Necessary
 
-* [GBIF](https://www.gbif.org/) - access and download biodiversity data
-  * [How to set up R package *rgbif* with your GBIF account](https://www.erikkusch.com/courses/gbif/setup/#gbif-account)
-  * alternative: use your GitHub account to sign in to GBIF
-  * recommended: connect your ORCID account to your GBIF account
 * [GitHub](https://github.com) - version control, make your code available
 * [QFieldCloud](https://app.qfield.cloud/accounts/login/) - collect data with [QField](https://qfield.org/) app
-* [Zenodo](https://zenodo.org/) - publish your code with a doi
-  * alternative 1: use your ORCID account to sign in to Zenodo
-  * alternative 2: use your GitHub account to sign in to Zenodo
 
 ### (Highly) recommended
 
 * [ORCID](https://orcid.org/) - self-curated unique researcher ID
   * use ORCID to sign in to Zenodo
   * use ORCID to identify in GBIF
+* [GBIF](https://www.gbif.org/) - access and download biodiversity data
+  * [How to set up R package *rgbif* with your GBIF account](https://www.erikkusch.com/courses/gbif/setup/#gbif-account)
+  * alternative: use your GitHub account to sign in to GBIF
+  * recommended: connect your ORCID account to your GBIF account
+* [Zenodo](https://zenodo.org/) - publish your code with a doi
+  * alternative 1: use your ORCID account to sign in to Zenodo
+  * alternative 2: use your GitHub account to sign in to Zenodo
 
 ## Installations
 
@@ -34,7 +34,11 @@ This is a selection of installation instructions for the tools we use in this co
 
 #### QField App (on your mobile phone!)
 
-* [Install the QField App on various OS on your mobile phone](https://qfield.org/)
+* [How to install the QField App on various OS on your mobile phone](https://qfield.org/)
+
+#### QGIS
+
+* [How to install and use QGIS on various OS (English)](https://www.qgis.org/resources/installation-guide/)
 
 #### Rightfield
 
@@ -46,6 +50,8 @@ This is a selection of installation instructions for the tools we use in this co
 * e.g. Windows Excel
 
 ### Recommended
+
+We will use a cloud version of **JupyterLab** including both **R** and **Python** kernels. If you prefer to set up Jupyter on your own device, please make sure to prepare a suitable version with all necessary libraries (see below).
 
 #### Git
 
@@ -65,6 +71,7 @@ This is a selection of installation instructions for the tools we use in this co
 * [Video Guide to install Python on MacOS (English)](https://www.youtube.com/watch?v=nhv82tvFfkM)
 * [direct link to python.org (English)](https://www.python.org/downloads/)
 * [list of tutorials for beginners on python.org (English)](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
+* Python library [openpyxl](https://pypi.org/project/openpyxl/)
 
 #### R
 
@@ -73,3 +80,9 @@ This is a selection of installation instructions for the tools we use in this co
 * [Video Guide to install R and RStudio on Windows (English)](https://www.youtube.com/watch?v=9SzKJH93t5o)
 * [Video Guide to install R and RStudio on MacOS (English)](https://www.youtube.com/watch?v=I5WIMX4LK8M)
 * [direct link to RStudio, contains link to R](https://posit.co/download/rstudio-desktop/)
+* R packages:
+  * pkgs <- c( <br>
+              "rgbif",             		                  ## access species data <br>
+	             "data.table", "doSNOW",			 		            ## taxonomic harmonization (incl. rgbif) <br>
+            	)<br>
+install.packages(pkgs, dependencies = TRUE)
