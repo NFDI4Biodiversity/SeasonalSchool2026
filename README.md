@@ -54,7 +54,7 @@ We compiled a list of recommended online learning resources for Git, R, and Pyth
     * ORCID
     * GBIF (or use ORCID)
     * Zenodo (or use ORCID)
-* Install or update the following programs on your local computer (find a list of links and resources [here](misc/install.md))
+* Install or update the following programs on your local computer (find a list of links and resources [here](https://github.com/NFDI4Biodiversity/SeasonalSchool2026/blob/main/misc/install.md#installations))
   * Necessary
     * OpenRefine
     * RightField
