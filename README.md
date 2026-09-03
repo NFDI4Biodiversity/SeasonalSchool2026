@@ -28,19 +28,17 @@ You will learn...
 You will need a computer where you can install programs, a camera and microphone, and a stable internet connection during the course. 
 
 Further, you will need
+
+* Basic knowledge of R
+  * Know how to load packages and use functions
+  * Loops, variables, input/output
+ * Basic knowledge of Python
+  * How to start a Python program from the command line
 * Basic knowledge of Git on command line or desktop software
   * Pull and push from remote
   * Recommended:
     * Know how to merge
-* Basic knowledge of Python
-  * How to start a Python program from the command line
-* Basic knowledge of R
-  * Know how to load packages and use functions
-  * Loops, variables, input/output
-  * Recommended:
-    * R package *data.table*
-    * R package *tidyverse*
-
+   
 We compiled a list of recommended online learning resources for Git, R, and Python [here](misc/install.md#recommended).
 
 ### Prepare for the workshop
@@ -50,23 +48,25 @@ We compiled a list of recommended online learning resources for Git, R, and Pyth
 * Make sure to adress [requirements](#requirements), i.e. brush-up your [Git, Python and R skills](misc/install.md#recommended)
 * Register for the following services and organisations (find a list of links and resources [here](misc/install.md))
   * Necessary
-    * GBIF
     * GitHub
     * QFieldCloud
-    * Zenodo (alternative: ORCID)
   * Recommended
     * ORCID
+    * GBIF (or use ORCID)
+    * Zenodo (or use ORCID)
 * Install or update the following programs on your local computer (find a list of links and resources [here](misc/install.md))
   * Necessary
     * OpenRefine
     * RightField
     * QField
+    * QGIS
     * Spreadsheet software (e.g. LibreOffice, Microsoft Excel)
   * Recommended
     * Jupyter (local)
     * Git
+* Please make sure you have access to Jupyter4NFDI or an alternative solution before the course starts (instructions and alternatives are available [here](https://github.com/NFDI4Biodiversity/SeasonalSchool2026/blob/main/misc/install.md#access-to-jupyter)). 
  
-❗ Please refer to [this list of resources](misc/install.md) if you need help with accounts or installations.
+❗ Please refer to [this list of resources](misc/install.md) for details!
 
 ### During the workshop
 
