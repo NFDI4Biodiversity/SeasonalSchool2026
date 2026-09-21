@@ -40,10 +40,6 @@ This is a selection of installation instructions for the tools we use in this co
 
 * [How to install and use QGIS on various OS (English)](https://www.qgis.org/resources/installation-guide/)
 
-#### Rightfield
-
-* [How to install and use RightField on various OS (English)](https://rightfield.org.uk/guide.html)
-
 #### Spreadsheet software
 
 * e.g. [LibreOffice](https://www.libreoffice.org)
